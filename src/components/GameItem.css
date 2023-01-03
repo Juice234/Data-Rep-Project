@@ -1,0 +1,65 @@
+.cards {
+  background: url(./cool-background.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3{
+  color: rgb(0, 0, 0);
+}
+
+.card-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.card-body2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.card-footer {
+  font-size: 1rem;
+  text-align: center;
+  background: url(./cool-background.png) no-repeat center center;
+}
+
+.image {
+  max-width: 65%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
+}
+
+.form {
+  width: 100%;
+}
+
+.buttons {
+  margin: 3px 1px;
+  width: 20%;
+}
+
+
+#bidAmount {
+  width: 70%;
+}
+
+.SubBtn {
+  width: 30%;
+}

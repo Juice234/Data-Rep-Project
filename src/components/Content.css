@@ -1,0 +1,56 @@
+.featured-game-card {
+  background-color: rgba(161, 131, 131, 0.616);
+  width: 18rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 5rem;
+  padding: 10px;
+}
+
+.featured-game-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #3e8e41;
+}
+
+.featured-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: rgb(240, 225, 225);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(240, 225, 225);
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  color: rgb(255, 248, 248);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 0 auto;
+}
